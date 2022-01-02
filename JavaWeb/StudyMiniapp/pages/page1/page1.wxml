@@ -1,0 +1,9 @@
+<!--pages/page1/page1.wxml-->
+<view> {{text}} </view>
+<view> {{temp}} </view>
+
+<view wx:for="{{arr}}">
+
+    {{item.id}} {{item.name}}
+
+</view>
